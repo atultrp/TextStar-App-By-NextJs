@@ -3,7 +3,7 @@ import Homepage from '../components/Homepage'
 
 export default function Home() {
   return (
-    <Layout>
+    <Layout className="box-border">
       <Homepage />
     </Layout>
   )
