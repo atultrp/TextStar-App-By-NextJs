@@ -43,7 +43,7 @@ const Homepage = () => {
                 Enter text to analyse below <ShortTextIcon fontSize="large" />
             </h1>
 
-            <textarea cols="25" rows="10" className="mt-1 form-control block w-full px-3 py-1.5 text-sm font-normal text-[#143c5c] bg-white bg-clip-padding border border-solid border-teal-400 rounded-r-md transition ease-in-out m-0 focus:text-gray-700 :bg-white focus:border-teal-900 focus:outline-none shadow-md shadow-[#11324D]/50 md:mt-3 md:text-base" value={text} onChange={handleOnChange}></textarea>
+            <textarea cols="25" rows="10" className="mt-1 text-[#11324D] form-control block w-full px-3 py-1.5 text-sm font-normal bg-white bg-clip-padding border border-solid border-teal-400 rounded-r-md transition ease-in-out m-0 focus:text-[#11324D]:bg-white focus:border-teal-900 focus:outline-none shadow-md shadow-[#11324D]/50 md:mt-3 md:text-base" value={text} onChange={handleOnChange}></textarea>
 
             <div className="text-sm md:text-base">
                 <button
