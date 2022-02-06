@@ -6,5 +6,5 @@ export default function Home() {
     <Layout className="box-border">
       <Homepage />
     </Layout>
-  )
+  );
 }
