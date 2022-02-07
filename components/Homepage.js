@@ -1,6 +1,7 @@
 import { useState } from "react";
 import ShortTextIcon from '@material-ui/icons/ShortText';
 import AlbumIcon from '@material-ui/icons/Album';
+import Button from "./Button";
 
 const Homepage = () => {
 
@@ -46,23 +47,13 @@ const Homepage = () => {
             <textarea cols="25" rows="10" className="mt-1 text-[#11324D] form-control block w-full px-3 py-1.5 text-sm font-normal bg-white bg-clip-padding border border-solid border-teal-400 rounded-r-md transition ease-in-out m-0 focus:text-[#11324D]:bg-white focus:border-teal-900 focus:outline-none shadow-md shadow-[#11324D]/50 md:mt-3 md:text-base" value={text} onChange={handleOnChange}></textarea>
 
             <div className="text-sm md:text-base">
-                <button
-                    className="bg-[#004445] text-white font-semibold p-1 rounded-r-md mr-3 mt-4 transition ease-in hover:-translate-y-1 hover:scale-110 duration-200 shadow-md shadow-[#11324D]/50 md:p-2" onClick={handleUpClick}>Uppercase</button>
 
-                <button
-                    className="bg-[#2C7873] text-white font-semibold p-1 rounded-r-md mr-3 mt-4 transition ease-in hover:-translate-y-1 hover:scale-110 duration-200 shadow-md shadow-[#11324D]/50 md:p-2" onClick={handleLowClick}>LowerCase</button>
+                <Button  handleClick={handleUpClick} buttonTitle="UpperCase" backColor="bg-[#004445]"/>
+                <Button  handleClick={handleLowClick} buttonTitle="LowerCase" backColor="bg-[#2C7873]"/>
+                <Button  handleClick={handleRemoveSpace} buttonTitle="Remove Extra Space" backColor="bg-[#004445]"/>
+                <Button  handleClick={handleCopy} buttonTitle="Copy Text" backColor="bg-[#2C7873]"/>
+                <Button  handleClick={handleClearClick} buttonTitle="Clear Text" backColor="bg-[#004445]"/>
 
-                <button
-                    className="bg-[#004445] text-white font-semibold p-1 rounded-r-md mr-3 mt-4 transition ease-in hover:-translate-y-1 hover:scale-110 duration-200 shadow-md shadow-[#11324D]/50 md:p-2" onClick={handleRemoveSpace}>Remove
-                    Extra Space</button>
-
-                <button
-                    className="bg-[#2C7873] text-white font-semibold p-1 rounded-r-md mr-3 mt-4 transition ease-in hover:-translate-y-1 hover:scale-110 duration-200 shadow-md shadow-[#11324D]/50 md:p-2" onClick={handleCopy}>Copy
-                    Text</button>
-
-                <button
-                    className="bg-[#004445] text-white font-semibold p-1 rounded-r-md mr-3 mt-4 transition ease-in hover:-translate-y-1 hover:scale-110 duration-200 shadow-md shadow-[#11324D]/50 md:p-2" onClick={handleClearClick}>Clear
-                    Text</button>
 
                 <div className="my-3">
                     <h2 className="text-xl my-3 text-[#11324D] font-medium md:text-2xl">
