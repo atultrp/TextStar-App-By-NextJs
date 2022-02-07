@@ -1,34 +1,54 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ✨️ TextStar By NextJs and Tailwind CSS
 
-## Getting Started
+## 🌀️ Introduction
+Basically, TextStar is a word counter and a character counting utility which can be used to manipulate your text in the way you want. You can remove extra spaces, copy the manipulated text as well as convert your text from uppercase to lowercase and lowercase to uppercase and provided Minute Count time to read the text. Here is one more feature to preview all the text that user entered.In this web application both light and dark mode are available.
 
-First, run the development server:
+## 🚀️ Demo
+#### [TextStar App](https://text-star-app-by-next-js.vercel.app)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## 💻️ Tech Included
+- HTML
+- NextJs
+- JavaScript
+- Tailwind CSS
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 👨🏻‍💻️ Creator
+Hey there, I'm Atul Tripathi from India. My passion for software lies with dreaming up ideas and making them come true with elegant interfaces. I take great care in the experience, architecture, and code quality of the things I build.
+I am also an open-source enthusiast and maintainer. I learned a lot from the open-source community and I love how collaboration and knowledge sharing happened through open-source.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://codepen.io/atultrp_/full/oNBmWgY)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/atultrp_)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/atultrp_)
+[![instagram](https://img.shields.io/badge/instagram-e75480?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/atultrp)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+### ❤️ Connect with me : <br/>
+[![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/atultrp1/)
+[![CodePen](https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white)](https://codepen.io/atultrp)
+[![Dev To](https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white)](https://dev.to/atultrp)
+[![Gitlab](https://img.shields.io/badge/GitLab-330F63?style=for-the-badge&logo=gitlab&logoColor=white)](https://gitlab.com/atultrp)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## 🤓️ Support
 
-## Learn More
+🌀️ _If you like what i do, maybe consider buying me a coffee/tea 🥺👉👈_
 
-To learn more about Next.js, take a look at the following resources:
+<a href="https://www.buymeacoffee.com/atultrp" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" width="150" ></a>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+For support, email atul31815@gmail.com.
+## 🙏️ Contributing
 
-## Deploy on Vercel
+Contributions are always welcome!
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+See `contributing.md` for ways to get started.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Please adhere to this project's `code of conduct`.
+
+  
+## 🔥️ Feedback
+
+If you have any feedback, please reach out to us at atul31815@gmail.com.
+  
+## 🗞️ License
+
+<!-- [MIT](https://choosealicense.com/licenses/mit/) -->
