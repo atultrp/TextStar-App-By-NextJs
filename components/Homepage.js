@@ -6,7 +6,6 @@ import Button from "./Button";
 const Homepage = () => {
 
     const handleUpClick = () => {
-        // console.log("Button is clicked!");
         let newText = text.toUpperCase();
         setText(newText);
     }
@@ -31,7 +30,6 @@ const Homepage = () => {
     }
 
     const handleOnChange = (event) => {
-        // console.log("On change");
         setText(event.target.value);
     }
 
