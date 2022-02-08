@@ -49,6 +49,6 @@ Please adhere to this project's `code of conduct`.
 
 If you have any feedback, please reach out to us at atul31815@gmail.com.
   
-## 🗞️ License
+<!-- ## 🗞️ License -->
 
 <!-- [MIT](https://choosealicense.com/licenses/mit/) -->
